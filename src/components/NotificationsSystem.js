@@ -113,15 +113,4 @@ export class NotificationsSystem extends Component {
   }
 }
 
-/**
- * Map state to props
- * @param {Object} state
- * @returns {{notifications: {Array}}}
- */
-function mapStateToProps(state) {
-  return {
-    notifications: state.notifications
-  };
-}
-
-export default connect(mapStateToProps)(NotificationsSystem);
+export default NotificationsSystem;
